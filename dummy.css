@@ -1,0 +1,75 @@
+
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+body {
+    background-color: #ee82ee;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+.container1{
+  max-width: 600px;
+  width: 100%;
+  background-color: rgba(248, 237, 237, 0.748);
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow:0 0 15px rgb(303, 45, 450);
+}
+header{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+}
+form{
+    margin-top: 20px;
+    position: relative;
+}
+.inputbox{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    width: 100%;
+    margin-top: 20px;
+}
+label{
+    display: grid;
+    align-content: center;
+}
+input{
+    border-radius: 20px;
+    height: 50px;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border:  1px solid whitesmoke;
+    padding-left:15px;
+}
+button{
+    display: grid;
+    justify-self: center;
+    width: 150px;
+    color: black;
+    background-color: rgb(172, 97, 167);
+    border-radius: 5px 3px;
+    border: none;
+    margin: 10px;
+    height: 25px;
+}
+.submitbutton{
+padding-top: 5px;
+font-size: 12px;
+font-weight: bolder;
+}
+button:hover{
+    cursor: pointer;
+
+}
